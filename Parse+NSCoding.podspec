@@ -9,6 +9,6 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '6.0'
   s.source_files = '*.{h,m}'
   s.requires_arc = true
-  s.dependency 'Parse-iOS', '~> 1.2.21'
+  s.dependency 'Parse-iOS', '~> 1.3'
   s.xcconfig = { 'FRAMEWORK_SEARCH_PATHS' => '"${PODS_ROOT}/Parse-iOS"' }
 end
